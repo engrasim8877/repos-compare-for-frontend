@@ -1,0 +1,200 @@
+/* Make sure each directive is on its own line with no concatenation */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Define custom font classes within a layer */
+@layer base {
+  :root {
+    /* Updated modern color palette */
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    /* Primary: Forest Green */
+    --primary: 160 84% 39%;
+    --primary-foreground: 355.7 100% 97.3%;
+
+    /* Secondary: Soft Teal */
+    --secondary: 172 66% 50%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 172 66% 95%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 160 84% 39%;
+
+    /* Custom colors */
+    --success: 142 71% 45%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+
+    --info: 199 89% 48%;
+    --info-foreground: 0 0% 100%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222 47% 11%;
+    --foreground: 210 40% 98%;
+
+    --card: 222 47% 11%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222 47% 11%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 160 84% 39%;
+    --primary-foreground: 355.7 100% 97.3%;
+
+    --secondary: 172 66% 50%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 160 84% 39%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  /* Define font-display within the base layer */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-display tracking-tight;
+  }
+}
+
+@layer utilities {
+  .animation-delay-200 {
+    animation-delay: 0.2s;
+  }
+  .animation-delay-400 {
+    animation-delay: 0.4s;
+  }
+}
+
+/* Regular CSS (not in a layer) */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Modern card styling */
+.eco-card {
+  @apply bg-white rounded-xl border border-border/40 shadow-sm hover:shadow-md transition-all duration-200;
+}
+
+/* Glass effect */
+.glass-effect {
+  @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-lg;
+}
+
+/* Gradient backgrounds */
+.gradient-primary {
+  @apply bg-gradient-to-br from-primary to-secondary;
+}
+
+.gradient-accent {
+  @apply bg-gradient-to-r from-accent to-secondary/20;
+}
+
+/* Animated dots for loading */
+.dots-loader {
+  @apply flex space-x-1 items-center justify-center;
+}
+
+.dots-loader span {
+  @apply w-2 h-2 bg-primary rounded-full animate-pulse;
+}
+
+/* Subtle hover effects */
+.hover-lift {
+  @apply transition-all duration-200 hover:-translate-y-1 hover:shadow-md;
+}
+
+/* Status indicators */
+.status-indicator {
+  @apply inline-flex h-2.5 w-2.5 rounded-full me-2;
+}
+
+.status-online {
+  @apply bg-success;
+}
+
+.status-offline {
+  @apply bg-destructive;
+}
+
+.status-maintenance {
+  @apply bg-warning;
+}
+
+/* Dashboard grid layouts */
+.dashboard-grid {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6;
+}
+
+.dashboard-grid-2 {
+  @apply grid grid-cols-1 md:grid-cols-2 gap-6;
+}
+
+/* Improved form elements */
+.form-group {
+  @apply space-y-2 mb-6;
+}
+
+/* Animated background */
+.animated-gradient {
+  background: linear-gradient(-45deg, #10b981, #0ea5e9, #8b5cf6, #10b981);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
