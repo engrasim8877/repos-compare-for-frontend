@@ -46,7 +46,7 @@ export default function Home() {
               <div className="rounded-full bg-primary/10 p-1">
                 <div className="h-8 w-8 rounded-full bg-primary" />
               </div>
-              <span className="font-display font-bold text-xl">Masullas</span>
+              <span className="font-display font-bold text-xl">Tergucamperarea</span>
             </Link>
             <nav className="hidden md:flex gap-6 ml-6">
               <Link href="#features" className="text-sm font-medium transition-colors hover:text-primary">
@@ -99,7 +99,7 @@ export default function Home() {
                 <div className="rounded-full bg-primary/10 p-1">
                   <div className="h-8 w-8 rounded-full bg-primary" />
                 </div>
-                <span className="font-display font-bold text-xl">Masullas</span>
+                <span className="font-display font-bold text-xl">Tergucamperarea</span>
               </Link>
               <Button
                 variant="ghost"
@@ -426,7 +426,7 @@ export default function Home() {
                 <div className="rounded-full bg-primary/20 p-1">
                   <div className="h-8 w-8 rounded-full bg-primary" />
                 </div>
-                <span className="font-display font-bold text-xl">Masullas</span>
+                <span className="font-display font-bold text-xl">Tergucamperarea</span>
               </div>
               <p className="text-slate-400">Smart campsite control system helping you manage your camping experience efficiently and sustainably.</p>
               <div className="flex space-x-4">
@@ -545,7 +545,7 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-slate-800 mt-8 pt-8 text-center text-slate-400">
-            <p>© {new Date().getFullYear()} Masullas. All rights reserved. Smart campsite control solutions.</p>
+            <p>© {new Date().getFullYear()} Tergucamperarea. All rights reserved. Smart campsite control solutions.</p>
           </div>
         </div>
       </footer>

@@ -107,7 +107,7 @@ export function DashboardLayout({ children }: DashboardLayoutProps) {
               <div className="rounded-full bg-primary/10 p-1 flex-shrink-0">
                 <div className="h-6 w-6 rounded-full bg-primary" />
               </div>
-                              <span className="font-display font-bold text-lg">Masullas</span>
+              <span className="font-display font-bold text-lg">Tergucamperarea</span>
             </Link>
             )
           }

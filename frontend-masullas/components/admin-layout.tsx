@@ -133,7 +133,7 @@ export function AdminLayout({ children }: AdminLayoutProps) {
                 <div className="h-6 w-6 rounded-full bg-secondary" />
               </div>
               <span className="font-display font-bold text-lg">
-                {t('admin.layout.masullasAdmin')}
+                {t('admin.layout.tergucamperareaAdmin')}
               </span>
             </Link>
           )}

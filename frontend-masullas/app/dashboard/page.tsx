@@ -188,7 +188,7 @@ export default function DashboardPage() {
           <div className="fixed inset-0 z-50 bg-background/80 backdrop-blur-sm flex items-center justify-center p-4">
             <Card className="w-full max-w-md shadow-xl">
               <CardHeader className="text-center">
-                <CardTitle className="text-2xl font-bold">{t('dashboard.welcomeToMasullas')}</CardTitle>
+                <CardTitle className="text-2xl font-bold">{t('dashboard.welcomeToTergucamperarea')}</CardTitle>
                 <CardDescription>{t('dashboard.firstBookingMessage')}</CardDescription>
               </CardHeader>
               <CardContent className="space-y-4 text-center">

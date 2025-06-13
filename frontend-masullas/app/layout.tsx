@@ -18,7 +18,7 @@ const outfit = Outfit({
 })
 
 export const metadata: Metadata = {
-  title: "Masullas - Smart Campsite Management System",
+  title: "Tergucamperarea - Smart Campsite Management System",
   description: "Smart campsite management system with automated utilities control",
   generator: 'v0.dev',
   icons: {

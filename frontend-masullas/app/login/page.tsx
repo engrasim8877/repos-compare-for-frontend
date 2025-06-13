@@ -179,7 +179,7 @@ console.log("API BASE URL:", process.env.NEXT_PUBLIC_API_BASE_URL);
                     <div className="h-10 w-10 rounded-full bg-primary" />
                   </div>
                 </div>
-                <CardTitle className="text-2xl font-bold text-center">{t('auth.login.title', 'Login to Masullas')}</CardTitle>
+                <CardTitle className="text-2xl font-bold text-center">{t('auth.login.title', 'Login to Tergucamperarea')}</CardTitle>
                 <CardDescription className="text-center">
                   {t('auth.login.subtitle', 'Enter your email and password to access your account')}
                 </CardDescription>

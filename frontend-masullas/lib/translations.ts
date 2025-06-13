@@ -90,7 +90,7 @@ const translations: Record<Language, Translations> = {
       viewProfile: "Visualizza Profilo",
       
       // First booking overlay
-              welcomeToMasullas: "Benvenuto su Masullas!",
+              welcomeToTergucamperarea: "Benvenuto su Tergucamperarea!",
       firstBookingMessage: "Per iniziare, dovrai richiedere la tua prima prenotazione di campeggio",
       noBookingsYet: "Non hai ancora prenotazioni. Richiedi la tua prima prenotazione per utilizzare i nostri servizi di campeggio intelligenti.",
       afterBookingApproval: "Dopo l'approvazione della tua prenotazione, potrai:",
@@ -597,7 +597,7 @@ const translations: Record<Language, Translations> = {
       // Admin Layout & Navigation
       layout: {
         toggleSidebar: "Attiva/disattiva barra laterale",
-        masullasAdmin: "Masullas Admin",
+        tergucamperareaAdmin: "Tergucamperarea Admin",
         logout: "Esci",
         admin: "Admin",
         
@@ -1242,7 +1242,7 @@ const translations: Record<Language, Translations> = {
       howItWorks: {
         badge: "Come Funziona",
         title: "Processo di Configurazione Semplice",
-        subtitle: "Iniziare con Masullas è semplice e diretto.",
+        subtitle: "Iniziare con Tergucamperarea è semplice e diretto.",
         signUp: {
           title: "Registrati",
           description: "Crea un account per accedere al nostro sistema di prenotazione campeggi."
@@ -1263,11 +1263,11 @@ const translations: Record<Language, Translations> = {
       testimonials: {
         badge: "Testimonianze",
         title: "Cosa Dicono i Nostri Utenti",
-        subtitle: "Ascolta dai campeggiatori che hanno trasformato la loro esperienza di campeggio con Masullas.",
+        subtitle: "Ascolta dai campeggiatori che hanno trasformato la loro esperienza di campeggio con Tergucamperarea.",
         sarah: {
           name: "Sarah Johnson",
           role: "Campeggiatore del Weekend",
-          quote: "Masullas ha completamente cambiato il modo in cui faccio campeggio. Essere in grado di controllare le utilities del mio campeggio dal telefone è incredibilmente conveniente!"
+          quote: "Tergucamperarea ha completamente cambiato il modo in cui faccio campeggio. Essere in grado di controllare le utilities del mio campeggio dal telefone è incredibilmente conveniente!"
         },
         michael: {
           name: "Michael Chen",
@@ -1315,7 +1315,7 @@ const translations: Record<Language, Translations> = {
     // Authentication
     auth: {
       login: {
-        title: "Accedi a Masullas",
+        title: "Accedi a Tergucamperarea",
         subtitle: "Inserisci la tua email e password per accedere al tuo account",
         email: "Email",
         emailPlaceholder: "la.tua.email@esempio.com",
@@ -1331,7 +1331,7 @@ const translations: Record<Language, Translations> = {
         showPassword: "Mostra password"
       },
       register: {
-        title: "Registrati su Masullas",
+        title: "Registrati su Tergucamperarea",
         subtitle: "Crea un nuovo account per iniziare a gestire i tuoi campeggi",
         firstName: "Nome",
         lastName: "Cognome",
@@ -1435,7 +1435,7 @@ const translations: Record<Language, Translations> = {
       viewProfile: "View Profile",
       
       // First booking overlay
-      welcomeToMasullas: "Welcome to Masullas!",
+      welcomeToTergucamperarea: "Welcome to Tergucamperarea!",
       firstBookingMessage: "To get started, you'll need to request your first campsite booking",
       noBookingsYet: "You don't have any bookings yet. Request your first booking to use our smart campsite services.",
       afterBookingApproval: "After your booking is approved, you'll be able to:",
@@ -1941,7 +1941,7 @@ const translations: Record<Language, Translations> = {
       // Admin Layout & Navigation
       layout: {
         toggleSidebar: "Toggle sidebar",
-        masullasAdmin: "Masullas Admin",
+        tergucamperareaAdmin: "Tergucamperarea Admin",
         logout: "Logout",
         admin: "Admin",
         
@@ -2584,7 +2584,7 @@ const translations: Record<Language, Translations> = {
       howItWorks: {
         badge: "How It Works",
         title: "Simple Setup Process",
-        subtitle: "Getting started with Masullas is simple and straightforward.",
+        subtitle: "Getting started with Tergucamperarea is simple and straightforward.",
         signUp: {
           title: "Sign Up",
           description: "Create an account to access our campsite booking system."
@@ -2605,11 +2605,11 @@ const translations: Record<Language, Translations> = {
       testimonials: {
         badge: "Testimonials",
         title: "What Our Users Say",
-        subtitle: "Hear from campers who have transformed their camping experience with Masullas.",
+        subtitle: "Hear from campers who have transformed their camping experience with Tergucamperarea.",
         sarah: {
           name: "Sarah Johnson",
           role: "Weekend Camper",
-          quote: "Masullas has completely changed how I camp. Being able to control my campsite utilities from my phone is incredibly convenient!"
+          quote: "Tergucamperarea has completely changed how I camp. Being able to control my campsite utilities from my phone is incredibly convenient!"
         },
         michael: {
           name: "Michael Chen",
@@ -2657,7 +2657,7 @@ const translations: Record<Language, Translations> = {
     // Authentication  
     auth: {
       login: {
-        title: "Login to Masullas",
+        title: "Login to Tergucamperarea",
         subtitle: "Enter your email and password to access your account",
         email: "Email",
         emailPlaceholder: "your.email@example.com",
@@ -2673,7 +2673,7 @@ const translations: Record<Language, Translations> = {
         showPassword: "Show password"
       },
       register: {
-        title: "Register to Masullas",
+        title: "Register to Tergucamperarea",
         subtitle: "Create a new account to start managing your campsites",
         firstName: "First Name",
         lastName: "Last Name",
